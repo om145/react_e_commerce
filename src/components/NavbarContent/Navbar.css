@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+}
+
+/* Logo */
+.logo a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  color: #47f9ff; 
+}
+
+/* Navigation Links */
+nav a{
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover{
+  color: #47f9ff; 
+}
+
+nav a.active {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+}
+
+/* Login Button */
+.login-button {
+  padding: 0.5rem 1.5rem;
+  background-color: #ff6347; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1rem;
+}
+
+.login-button:hover {
+  background-color: #e5533c; 
+  transform: scale(1.05);
+}

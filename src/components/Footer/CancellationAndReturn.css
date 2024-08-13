@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.car-container{
+    margin: 40px 110px  60px 110px;
+}
+
+.cancellation-main-title , .return-main-title{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+}
+
+.return-part3-title ul li{
+    margin: 20px 0 10px 50px;
+    font-size: 25px;
+    list-style: disc;
+}
+
+  .return-content {
+    margin: 20px 50px 30px 70px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    row-gap : 10px  ;
+}
+
+
+
+.cancellation-container ul li , .return-part3-content ul li{
+    margin: 5px 100px 5px 110px;
+    text-align: justify;
+    list-style-type: disc;
+}
+
+.car-last{
+    margin: 10px 50px 10px 50px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-variant: unset;
+    font-style: initial;
+    text-align: justify;
+}
